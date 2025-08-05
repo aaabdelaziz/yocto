@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# WARNING: This script will erase all data on /dev/sdb. Double-check your device.
-DISK="/dev/sdb"
+# WARNING: This script will erase all data on /dev/sdX. Double-check your device.
+DISK="/dev/sdX"
 
 # Unmount all mounted partitions on the disk
 sudo umount ${DISK}* 2>/dev/null
